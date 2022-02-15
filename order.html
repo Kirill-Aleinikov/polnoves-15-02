@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Контакты</title>
+    
+    <link rel="icon" sizes="16x16" href="img/favicon/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicon/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="order-created">
+    <span>
+        Заказ оформлен!
+    </span>
+    <span>
+        Скоро с Вами свяжется сотрудник для подтверждения заказа 
+    </span>
+    <span class="button-bye">
+        <a>На главную</a>
+    </span>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <ul class="menu">
+                    <li><a href="partners.html">Партнерам</a></li>
+                    <li><a href="Shipping-pay.html">Условия доставки</a></li>
+                    <li><a href="basket.html">Корзина</a></li>
+                </ul>
+                <div class="header-contacts">
+                    <div class="conts">
+                        <a href="tel:84732606669" class="tel" style="margin-bottom: 20px;">8 (473) 260-66-69</a>
+                        <a href="mailto:prodmaks@yandex.ru" class="tel mail">prodmaks@yandex.ru</a>
+                    </div>
+                    <div class="search">
+                        <a href="#">Поиск товара</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div class="small-menu">
+            <span style="font-weight: 300;">Главная / Каталог /</span> Оформление зказа
+        </div>
+
+        <div class="order">
+            <h1>
+                Оформление заказа
+            </h1>
+            <div style="display: flex;">
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                    <div class="contact-details">
+                        <h2>
+                            Контактные данные
+                        </h2>
+                        <form action="/" method="POST" id="contact-form">
+                            <input type="text" name="name" placeholder="ФИО">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="tel" name="tel" id="check" placeholder="Телефон">
+                        </form>
+                    </div>
+
+                    <div class="delivery">
+                        <div class="delivery-type">
+                            <span id="dt">
+                                Доставка
+                            </span>
+                            <span id="dt">
+                                Самовывоз
+                            </span>
+                        </div>
+                        <input list="city" value=""  placeholder="Город" type="text" />
+                            <datalist id="city">
+                            <option>Воронеж
+                            <option>Москва
+                            <option>Белгород
+                            </datalist>
+                        
+                        <input type="text" name="street" placeholder="Улица">
+
+                        <div class="home-info"">
+                            <input type="number" name="home" placeholder="Дом">
+                            <input type="number" name="Frame" placeholder="Корпус">
+                        </div>
+                    </div>
+                </div>
+                <div class="client-order">
+                    <div class="border-order">
+                        <h2>
+                            Ваш заказ
+                        </h2>
+                        <div style="display: flex;
+                        margin: 30px 40px 29px 20px;">
+                            <img src="./img/fake.png">
+                            <div class="">
+                                <span>
+                                    Вода питьевая <br>
+                                    Природная благодать
+                                </span>
+                                <span>
+                                    500мл
+                                </span>
+                            </div>
+                            <div class="price">
+                                15,50 руб
+                            </div>
+                            <span class="">×</span>
+                        </div>
+                        <hr style="
+                        border: 1px solid #C9C5C5;">
+                        <div style="display: flex;
+                        margin: 30px 40px 29px 20px;">
+                            <img src="./img/fake.png">
+                            <div class="">
+                                <span>
+                                    Вода питьевая <br>
+                                    Природная благодать
+                                </span>
+                                <span>
+                                    500мл
+                                </span>
+                            </div>
+                            <div class="price">
+                                15,50 руб
+                            </div>
+                            <span class="">×</span>
+                        </div>
+                    </div>  
+                    <div class="price-bot">
+                        <span>
+                            Товаров на сумму:
+                        </span>
+                        <span>
+                            31 руб
+                        </span>
+                    </div>
+                    <div class="price-bot">
+                        <span>
+                            Доставка:
+                        </span>
+                        <span>
+                            300 руб
+                        </span>
+                    </div>
+                    <div class="price-bot money-total">
+                        <span>
+                            Итого:
+                        </span>
+                        <span>
+                            331 руб
+                        </span>
+                    </div>
+                    <button class="button-bye-last">
+                        Оформить заказ
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <a href="#" class="logo"><img src="img/logo-footer.svg" alt=""></a>
+                <div class="footer-info">
+                    <div class="footer-info-top">
+                        <ul class="menu">
+                            <li><a href="#">Доставка на дом</a></li>
+                            <li><a href="#">Наша продукция</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Партнерам</a></li>
+                        </ul>
+                        <div class="timework">
+                            <span>Время работы:</span>
+                            <i>Понедельник - Пятница с 8:00 до 21:00</i>
+                        </div>
+                    </div>
+                    <div class="footer-info-bottom">
+                        <div class="address">Воронеж, Монтажный проезд, 5/19 </div>
+                        <div class="social">
+                            <a href="#"><img src="img/vk.svg" alt=""></a>
+                            <a href="#"><img src="img/inst.svg" alt=""></a>
+                        </div>
+                        <div class="footer-contacts">
+                            <a href="tel:84732606669" class="tel">8 (473) 260-66-69</a>
+                            <a href="mailto:" class="mail">prodmaks@yandex.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/btn.js"></script>
+</body>
+</html>

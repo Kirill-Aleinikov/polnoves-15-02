@@ -1,0 +1,21 @@
+@media (min-width: 1343px) and (max-width: 1650px)
+{
+    .decor-3 {
+        left: 790px;
+    }
+    .top-wrap .menu a {
+        padding: 55px 0;
+        width: 335px;
+        font-size: 29px;
+    }
+    .top-wrap {
+        padding: 250px 0 422px 0;
+    }
+    .why-our {
+        margin-bottom: 160px;
+    }
+}
+
+@media (min-width: 1023) and (max-width: 1343px){
+    
+}
